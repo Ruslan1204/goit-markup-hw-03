@@ -100,6 +100,10 @@ body {
 .site-contacts{
     display: flex;
     align-items: center;
+}
+
+
+.page-header{
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -211,10 +215,12 @@ margin-left: auto;
 
 .container-hero{
     background: var(--background-color);
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .hero-title {
@@ -225,9 +231,12 @@ margin-left: auto;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    width: 698px;
 
     margin-top: 0;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Button */
@@ -260,6 +269,10 @@ margin-left: auto;
 
 /* Преимущества */
 
+.section-feature{
+    padding-top: 94px;
+}
+
 .feature{ 
     display: flex;
 }
@@ -290,6 +303,10 @@ margin-left: auto;
 }
 
 /* Чем занимаемся */
+
+.section-doing{
+    padding-top: 0;
+}
 
 .images{
     display: flex;
@@ -339,7 +356,7 @@ margin-left: auto;
 
 .background-color{
     background-color: var(--button-color);
-    /* padding: 94px 215px; */
+    padding-top: 94px;
 }
 
 .section .section-team{
@@ -351,7 +368,6 @@ margin-left: auto;
 
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 
 .section .our-team{
@@ -379,14 +395,6 @@ margin-left: auto;
 
 /*  Подвал */
 
-.basement-address{
-    padding-bottom: 60px;
-}
-
-.basement-indant{
-    padding-bottom: 60px;
-}
-
 .indent:not(:last-child){
 margin-bottom: 9px;
 }
@@ -407,6 +415,8 @@ margin-bottom: 9px;
 
 .basement{
     background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address{
@@ -520,7 +530,7 @@ margin-bottom: 9px;
 .navigation{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .container-btn{
@@ -536,7 +546,8 @@ margin-bottom: 9px;
     letter-spacing: 0.06em;
 
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 4px;
+    width: 322px;
 
 }
 
@@ -556,11 +567,15 @@ margin-bottom: 9px;
 
 /* Navigation-images */
 
+.section-navigation{
+
+    padding-top: 94px;
+}
 .container-title{
     display: flex;
     flex-direction:column;
     width: 370px;
-    padding: 20px 24px;
+    padding: 20px;
     border: 1px solid var(--container-bordder-color);
     border-top: 0;
 }
@@ -612,6 +627,7 @@ margin-bottom: 9px;
 
     margin-top: 0;
     margin-bottom: 0;
+    visibility: hidden;
 }
 
 /* Секции */
